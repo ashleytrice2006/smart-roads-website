@@ -3,7 +3,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <Image src="/logo.png" alt="Smart Roads Logo" width={250} height={100} />
+      <Image
+        src="/logo.png" // Make sure this is the correct filename
+        alt="Smart Roads Logo"
+        width={250}
+        height={100}
+      />
     </div>
   );
 }
