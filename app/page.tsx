@@ -3,13 +3,10 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-     <Image 
- <Image 
-  src="/logo.png" 
-  alt="Smart Roads Logo"
-  width={250} 
-  height={100} 
-/>
+      <Image src="/logo.png" alt="Smart Roads Logo" width={250} height={100} />
+    </div>
+  );
+}
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
