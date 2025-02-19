@@ -4,10 +4,11 @@ export default function Home() {
   return (
     <div>
      <Image 
-  src="/your-logo.png" // If this matches the uploaded filename
+ <Image 
+  src="/logo.png" 
   alt="Smart Roads Logo"
-  width={250} // Adjust as needed
-  height={100}
+  width={250} 
+  height={100} 
 />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
