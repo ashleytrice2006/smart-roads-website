@@ -8,7 +8,7 @@ export default function Home() {
   width={250}
   height={100}
   priority
-  unoptimized
+  unoptimized={true}
 />
     </div>
   );
