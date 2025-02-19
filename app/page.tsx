@@ -2,13 +2,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <Image
-        src="/logo.png"  // This is correct for images in the public folder
-        alt="Smart Roads Logo"
-        width={250}
-        height={100}
-        unoptimized  // Add this to bypass Next.js optimizations
+    <div><Image
+  src="/logo.png" // This is correct for images in the public folder
+  alt="Smart Roads Logo"
+  width={250}
+  height={100}
+  unoptimized
       />
     </div>
   );
