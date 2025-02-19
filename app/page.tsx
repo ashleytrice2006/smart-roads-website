@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <Image 
-        src="/your-logo-01.png"  // Make sure the filename matches exactly
-        alt="Smart Roads Logo"
-        width={250}  // Adjust size as needed
-        height={100}
-      />
+     <Image 
+  src="/your-logo.png" // If this matches the uploaded filename
+  alt="Smart Roads Logo"
+  width={250} // Adjust as needed
+  height={100}
+/>
     </div>
   );
 />
