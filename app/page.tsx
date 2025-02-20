@@ -1,29 +1,27 @@
-import Image from "next/image"; // ✅ Correct import
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      {/* ✅ Corrected: Use Next.js Image component */}
-      <Image 
+      {/* Display Smart Roads Logo */}
+      <Image
         src="/logo-01.png" 
         alt="Smart Roads Logo" 
         width={250} 
         height={100} 
-        priority 
+        priority
       />
 
-      {/* ✅ Removed unnecessary JSX issues */}
+      {/* Instructions Section */}
       <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-        <li className="mb-2">
-          Get started by editing  
-          <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-            app/page.tsx
-          </code>
-        </li>
+        <li className="mb-2">Get started by editing</li>
+        <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+          app/page.tsx
+        </code>
         <li>Save and see your changes instantly.</li>
       </ol>
 
-      {/* ✅ Fixed next/image inside <a> */}
+      {/* Next.js Image Example */}
       <div className="flex gap-4 items-center flex-col sm:flex-row">
         <a
           className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground"
@@ -35,8 +33,8 @@ export default function Home() {
             className="dark:invert"
             src="/vercel.svg"
             alt="Vercel logomark"
-            width={100} // ✅ Added width
-            height={50} // ✅ Added height
+            width={100} // Adjust width
+            height={50}  // Adjust height
           />
         </a>
       </div>
