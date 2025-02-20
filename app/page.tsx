@@ -33,8 +33,8 @@ export default function Home() {
             className="dark:invert"
             src="/vercel.svg"
             alt="Vercel logomark"
-            width={100} // Adjust width
-            height={50}  // Adjust height
+            width={100} 
+            height={50}  
           />
         </a>
       </div>
