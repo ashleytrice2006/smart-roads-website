@@ -4,12 +4,12 @@ export default function Home() {
   return (
     <div>
       {/* Display Smart Roads Logo */}
-      <Image
-        src="/logo-01.png"
-        alt="Smart Roads Logo"
-        width={250}
-        height={100}
-        priority
+      <Image 
+        src="/logo-01.png" 
+        alt="Smart Roads Logo" 
+        width={250} 
+        height={100} 
+        priority 
       />
 
       {/* Instructions Section */}
@@ -24,24 +24,23 @@ export default function Home() {
       {/* Next.js Image Example */}
       <div className="flex gap-4 items-center flex-col sm:flex-row">
         <a
-          className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground"
+          className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center bg-foreground"
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <Image 
             className="dark:invert"
-            src="/vercel.svg"
-            alt="Vercel logomark"
+            src="/vercel.svg" 
+            alt="Vercel logomark" 
             width={100} 
-            height={50}  
+            height={50} 
           />
         </a>
       </div>
     </div>
   );
 }
-
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
